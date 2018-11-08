@@ -18,7 +18,7 @@
   (let ((idx -1))
     (mapcar
      (lambda (s)
-       (setq idx (+ 1 idx))
+       (setq idx (1+ idx))
        (let* ((code (+ #Xe100 idx))
               (width (string-width s))
               (prefix ())
@@ -26,7 +26,7 @@
               (n 1))
          (while (< n width)
            (setq prefix (append prefix '(?\s (Br . Bl))))
-           (setq n (+ 1 n)))
+           (setq n (1+ n)))
          (cons s (append prefix suffix (list (decode-char 'ucs code))))))
      list)))
 

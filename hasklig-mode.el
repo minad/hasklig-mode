@@ -42,18 +42,18 @@
 (defvar hasklig-mode--old-prettify-alist)
 
 (defun hasklig-mode--enable ()
-  "Enable hasklig-mode."
+  "Enable Hasklig ligatures in current buffer."
   (setq-local hasklig-mode--old-prettify-alist prettify-symbols-alist)
   (setq-local prettify-symbols-alist (append (hasklig-mode--make-alist hasklig-mode--ligatures) hasklig-mode--old-prettify-alist))
   (prettify-symbols-mode t))
 
 (defun hasklig-mode--disable ()
-  "Disable hasklig-mode."
+  "Disable Hasklig ligatures in current buffer."
   (setq-local prettify-symbols-alist hasklig-mode--old-prettify-alist)
   (prettify-symbols-mode -1))
 
 (define-minor-mode hasklig-mode
-  "Hasklig Ligatures mode."
+  "Hasklig Ligatures minor mode."
   :lighter " Hasklig"
   (setq-local prettify-symbols-unprettify-at-point 'right-edge)
   (if hasklig-mode

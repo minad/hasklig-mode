@@ -52,6 +52,7 @@
   (setq-local prettify-symbols-alist hasklig-mode--old-prettify-alist)
   (prettify-symbols-mode -1))
 
+;;;###autoload
 (define-minor-mode hasklig-mode
   "Hasklig Ligatures minor mode."
   :lighter " Hasklig"

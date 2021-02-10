@@ -7,7 +7,7 @@
 
 Example configuration:
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (set-face-attribute 'default nil
                     :family "Hasklig"
                     :height 200
@@ -16,4 +16,4 @@ Example configuration:
 
 (use-package hasklig-mode
   :hook (haskell-mode))
-#+END_SRC
+#+end_src

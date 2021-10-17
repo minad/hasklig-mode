@@ -1,6 +1,7 @@
 * hasklig-mode.el - Hasklig ligatures for emacs
 
-[[https://melpa.org/#/hasklig-mode][file:https://melpa.org/packages/hasklig-mode-badge.svg]]
+#+html: <a href="https://melpa.org/#/hasklig-mode"><img alt="MELPA" src="https://melpa.org/packages/hasklig-mode-badge.svg"/></a>
+#+html: <a href="https://stable.melpa.org/#/hasklig-mode"><img alt="MELPA Stable" src="https://stable.melpa.org/packages/hasklig-mode-badge.svg"/></a>
 
 1. Install the Hasklig font to =~/.fonts=.
 2. Modify your emacs configuration =.emacs.d/init.el=.

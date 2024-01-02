@@ -1,16 +1,18 @@
 ;;; hasklig-mode.el --- Hasklig ligatures -*- lexical-binding: t -*-
-;;
+
+;; Copyright (C) 2018-2024 Daniel Mendler
+
 ;; Author: Daniel Mendler
 ;; Created: 2018
 ;; License: GPL-3.0-or-later
 ;; Version: 0.2
 ;; Package-Requires: ((emacs "25"))
 ;; Homepage: https://github.com/minad/hasklig-mode
-;;
+
 ;;; Commentary:
-;;
+
 ;; Minor mode for Hasklig ligatures
-;;
+
 ;;; Code:
 
 (defun hasklig-mode--make-alist (list)

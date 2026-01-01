@@ -1,6 +1,6 @@
 ;;; hasklig-mode.el --- Hasklig ligatures -*- lexical-binding: t -*-
 
-;; Copyright (C) 2018-2025 Daniel Mendler
+;; Copyright (C) 2018-2026 Daniel Mendler
 
 ;; Author: Daniel Mendler
 ;; Created: 2018
